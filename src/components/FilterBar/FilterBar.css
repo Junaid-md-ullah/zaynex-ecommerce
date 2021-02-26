@@ -1,0 +1,173 @@
+.filter-wrap{
+    border: 1px solid #EDEDED;
+    height: 100%;
+}
+.badge{
+    width: 8vw;
+    height: 4vh;
+    border: 1px solid #c5bebe;
+    font-weight:400;
+    font-size: 0.9em;
+    color: #999898;
+    margin-bottom: 9px;
+}
+.badge_size{
+    width: 6vw;
+}
+.badge_clear{
+    width: 5vw;
+    background: #E5FFF2;
+    color: #14CD71;
+    border-color: #BDF1D7;
+}
+
+.hr_dashed{
+    border-top: 2px dashed #C2C2C2;
+}
+
+.header_select{
+    font-size: 400;
+    font-weight: 450;
+    width: 270px;
+    border: none;
+    background: none;
+}
+.text_color{
+    color: #505050;
+}
+
+.men_clothing_text{
+    padding-left: 10px;
+    
+}
+.small_text{
+    font-size: 0.9rem;
+}
+
+.search_bar_brand{
+    border: 2px solid #dad5d5;
+    color: #dad5d5;
+    font-weight: 400;
+    font-size: smaller;
+    width: 100%;
+}
+.input_icons_brand img{
+    position: relative;
+    left: -10%;
+    height: 16.99px;
+    top:7px
+}
+.brand_radio{
+    overflow-y: scroll;
+    height: 30vh;
+
+}
+.radio::-webkit-scrollbar {
+    background: #f0eeee; 
+    border-radius: 10px;
+    width: 9px;
+  }
+.radio::-webkit-scrollbar-thumb {
+    background: #00B55B; 
+    border-radius: 10px;
+  }
+.radio input{
+    margin-right: 10px;
+}
+.radio label{
+    font-size: 0.9rem;
+    color: #505050;
+}
+.see_more{
+ color: #00B55B;
+}
+
+.country_radio{
+    overflow-y: scroll;
+    height: 19vh;   
+}
+
+.sizes > div{
+    border: 2px solid #dad5d5;
+    padding: 3px;
+}
+
+.colors > div{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #dad5d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.black{
+    background: black;
+    width: 20px;
+    height: 20px;
+}
+.chocolate{
+    background: #6F3E18 ;
+    width: 20px;
+    height: 20px;
+}
+.fruit{
+    background: #D4BE8D;
+    width: 20px;
+    height: 20px;
+}
+.ash{
+    background: #838383;
+    width: 20px;
+    height: 20px;
+}
+.white{
+    background: white;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #dad5d5;
+}
+.blue{
+    background: #0F73AD;
+    width: 20px;
+    height: 20px;
+}
+
+.price_range_wrapper{
+    width: 200px;
+}
+.price_range_wrapper input{
+    width: 80px;
+    height: 90%;
+    border: 2px solid #dad5d5;
+    border-radius: 5px;
+}
+
+.min_max_line{
+    height: 1px;
+    width: 4px;
+    border-top: 1px solid black;
+}
+
+.right_angle{
+    background: #00B55B;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 16px 16px 16px;
+}
+.right_angle span{
+    color: white;
+}
+
+.checked{
+    color: #00B55B;
+    margin-right: 3px;
+}
+
+.fabric_radio{
+    overflow-y: scroll;
+    height: 39vh;  
+}

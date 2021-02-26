@@ -1,0 +1,54 @@
+.banner1{
+    background-image: url("../../assets/Hair-Care.png");
+    background-position: center;
+    height: 200px;
+    width: 230px !important;
+}
+.banner2{
+    background-image: url("../../assets/26801830821918.png");
+    background-position: center;
+    height: 200px;
+    width: 230px !important;
+}
+.banner3{
+    background-image: url("../../assets/26824312324126.png");
+    background-position: center;
+    height: 200px;
+    width: 230px !important;
+}
+.banner4{
+    background-image: url("../../assets/Image\ 117.png");
+    background-position: center;
+    height: 200px;
+    width: 230px !important;
+}
+.badge{
+    background: #00B55B ;
+    color: white !important;
+    width: 70px !important;
+    height: 25px !important;
+    border: none !important;
+}
+.banner_date{
+    color: white;
+}
+.banner_data_text_wrap{
+    margin-top: 55%;
+}
+.slick-list{
+    margin-left: 40px !important;
+}
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
+    opacity: 1 !important;
+}
+.slick-prev:before, .slick-next:before{
+    color: #00B55B !important;
+    width: 50px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #00B55B !important;
+}
+.slick-dots li button:before {
+    font-size: 9px !important;
+}

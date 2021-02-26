@@ -1,0 +1,10 @@
+.nav_links{
+    width: 15vw;
+}
+.nav_links a{
+    color: black;
+    font-weight: 500;
+}
+.nav_links a:first-child{
+    color: gray;
+}
