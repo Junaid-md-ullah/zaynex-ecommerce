@@ -1,7 +1,8 @@
+$thirtyPixel: 30px;
 .page_number_wrap{
     width: 400px;
     border: 1px solid #EDEDED;
-    border-radius: 30px;
+    border-radius: $thirtyPixel;
     height: 50px;
     margin-top: 60px;
 }
@@ -12,8 +13,8 @@
 .page_number_wrap div:first-child{
     border-radius: 50%;
     color: white;
-    width: 30px;
-    height: 30px;
+    width: $thirtyPixel;
+    height: $thirtyPixel;
     background: #00A855;
     text-align: center;
     padding-top: 5px;

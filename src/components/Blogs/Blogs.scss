@@ -1,29 +1,25 @@
+$mainGreenColor: #00B55B !important;
 .banner1{
     background-image: url("../../assets/Hair-Care.png");
-    background-position: center;
-    height: 200px;
-    width: 230px !important;
 }
 .banner2{
     background-image: url("../../assets/26801830821918.png");
-    background-position: center;
-    height: 200px;
-    width: 230px !important;
+
 }
 .banner3{
     background-image: url("../../assets/26824312324126.png");
-    background-position: center;
-    height: 200px;
-    width: 230px !important;
+
 }
 .banner4{
     background-image: url("../../assets/Image\ 117.png");
+}
+.banner_same_styles{
     background-position: center;
     height: 200px;
     width: 230px !important;
 }
 .badge{
-    background: #00B55B ;
+    background: $mainGreenColor ;
     color: white !important;
     width: 70px !important;
     height: 25px !important;
@@ -38,16 +34,22 @@
 .slick-list{
     margin-left: 40px !important;
 }
+.slick-prev {
+    left: 10px !important;
+}
+.slick-next {
+    right: 5px !important;
+}
 .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
     opacity: 1 !important;
 }
 .slick-prev:before, .slick-next:before{
-    color: #00B55B !important;
+    color: $mainGreenColor;
     width: 50px !important;
 }
 
 .slick-dots li.slick-active button:before {
-    color: #00B55B !important;
+    color: $mainGreenColor;
 }
 .slick-dots li button:before {
     font-size: 9px !important;

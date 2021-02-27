@@ -1,5 +1,5 @@
 import React from 'react';
-import './Blogs.css';
+import './Blogs.scss';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -55,7 +55,7 @@ const Blogs = (props) => {
                         </small>
                     </div>
         <Slider {...settings}>
-          <div className="banner1">
+          <div className="banner1 banner_same_styles">
             <div className="pl-2 pt-2 my-auto">
                 <span className="badge py-auto">News</span>
             </div>
@@ -76,7 +76,7 @@ const Blogs = (props) => {
             </div>
           </div>
 
-          <div className="banner2">
+          <div className="banner2 banner_same_styles">
           <div className="pl-2 pt-2">
                 <span className="badge">Health</span>
             </div>
@@ -96,7 +96,7 @@ const Blogs = (props) => {
                 </div>
             </div>
           </div>
-          <div className="banner3">
+          <div className="banner3 banner_same_styles">
           <div className="pl-2 pt-2">
                 <span className="badge">Fashion</span>
             </div>
@@ -116,7 +116,7 @@ const Blogs = (props) => {
                 </div>
             </div>
           </div>
-          <div className="banner4">
+          <div className="banner4 banner_same_styles">
           <div className="pl-2 pt-2">
                 <span className="badge">Health</span>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './FilterBar.css';
+import './FilterBar.scss';
 import searchIcon from '../../assets/loupe.png';
 
 const FilterBar = () => {
@@ -8,9 +8,9 @@ const FilterBar = () => {
             <div className="pl-3 mt-3">
                 <div className="text_color">Filters</div>
                 <div className="filter_badges mt-3">
-                    <div><span class="badge badge-pill badge-light d-flex justify-content-around align-items-center"><span>Out of Stock</span> <span><i class="fa fa-times-circle"></i></span> </span></div>
-                    <div><span class="badge badge_size badge-pill badge-light d-flex justify-content-around align-items-center"><span>Size: XL</span> <span><i class="fa fa-times-circle"></i></span></span></div>
-                    <div><span class="badge badge_clear badge-pill badge badge-light d-flex justify-content-around align-items-center"><span>Clear all</span></span></div>
+                    <div><span class="badge_stock badge-pill badge-light d-flex justify-content-around align-items-center"><span>Out of Stock</span> <span><i class="fa fa-times-circle"></i></span> </span></div>
+                    <div><span class="badge_size badge-pill badge-light d-flex justify-content-around align-items-center"><span>Size: XL</span> <span><i class="fa fa-times-circle"></i></span></span></div>
+                    <div><span class="badge_clear badge-pill badge badge-light d-flex justify-content-around align-items-center"><span>Clear all</span></span></div>
                 </div>
             </div>
             <hr className="hr_dashed"></hr>

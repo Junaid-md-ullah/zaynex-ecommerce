@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProductCard.css';
+import './ProductCard.scss';
 import img1 from '../../../assets/asset-8.png';
 import img2 from '../../../assets/asset-9.png';
 import img3 from '../../../assets/asset-7.png';

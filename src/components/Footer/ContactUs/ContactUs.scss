@@ -1,0 +1,29 @@
+// text colors
+$gray : #e3e1e1;
+$fontLight: lighter;
+
+.subscribe_email input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: $fontLight;
+}
+.subscribe_email span{
+    position: absolute;
+    margin-left: -19px;
+}
+
+
+.about_us_links{
+    font-weight: 500;
+}
+
+.bank_wrap div{
+    border: 1px solid $gray;
+    padding: 4px;
+}
+
+.font_light{
+    font-weight: $fontLight;
+}

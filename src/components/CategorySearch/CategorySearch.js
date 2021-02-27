@@ -1,5 +1,5 @@
 import React from 'react';
-import './CategorySearch.css';
+import './CategorySearch.scss';
 import searchIcon from '../../assets/loupe.png';
 
 const CategorySearch = () => {

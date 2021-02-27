@@ -1,24 +1,41 @@
+$badgeHeight: 4vh !important;
+$badgeFontWeight: 400;
+$badgeFontSize: 0.9em;
+$mainGreenColor: #00B55B;
+
 .filter-wrap{
     border: 1px solid #EDEDED;
     height: 100%;
 }
-.badge{
-    width: 8vw;
-    height: 4vh;
+.badge_stock{
+    width: 8vw !important;
+    height: $badgeHeight;
     border: 1px solid #c5bebe;
-    font-weight:400;
-    font-size: 0.9em;
-    color: #999898;
+    font-weight:$badgeFontWeight;
+    font-size: $badgeFontSize;
+    color: #999999 !important;
     margin-bottom: 9px;
+    background: #FAFAFA;
 }
 .badge_size{
-    width: 6vw;
+    width: 6vw !important;
+    height: $badgeHeight;
+    border: 1px solid #c5bebe;
+    font-weight:$badgeFontWeight;
+    font-size: $badgeFontSize;
+    color: #999999 !important;
+    margin-bottom: 9px;
+    background: #FAFAFA;
 }
 .badge_clear{
-    width: 5vw;
-    background: #E5FFF2;
-    color: #14CD71;
-    border-color: #BDF1D7;
+    width: 5vw !important;
+    height: $badgeHeight;
+    border: 2px solid #BEF2D8 !important;
+    font-weight:$badgeFontWeight;
+    font-size: $badgeFontSize;
+    color: #04C967 !important;
+    margin-bottom: 9px;
+    background: #E5FFF2 !important;
 }
 
 .hr_dashed{
@@ -26,7 +43,7 @@
 }
 
 .header_select{
-    font-size: 400;
+    font-size: $badgeFontWeight;
     font-weight: 450;
     width: 270px;
     border: none;
@@ -47,7 +64,7 @@
 .search_bar_brand{
     border: 2px solid #dad5d5;
     color: #dad5d5;
-    font-weight: 400;
+    font-weight: $badgeFontWeight;
     font-size: smaller;
     width: 100%;
 }
@@ -68,7 +85,7 @@
     width: 9px;
   }
 .radio::-webkit-scrollbar-thumb {
-    background: #00B55B; 
+    background: $mainGreenColor; 
     border-radius: 10px;
   }
 .radio input{
@@ -79,7 +96,7 @@
     color: #505050;
 }
 .see_more{
- color: #00B55B;
+ color: $mainGreenColor;
 }
 
 .country_radio{
@@ -151,7 +168,7 @@
 }
 
 .right_angle{
-    background: #00B55B;
+    background: $mainGreenColor;
     width: 35px;
     display: flex;
     justify-content: center;

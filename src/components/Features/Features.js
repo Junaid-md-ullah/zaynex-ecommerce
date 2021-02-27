@@ -1,5 +1,5 @@
 import React from 'react';
-import './Features.css';
+import './Features.scss';
 import img1 from '../../assets/like.png';
 import img2 from '../../assets/medal.png';
 import img3 from '../../assets/paper-plane.png';

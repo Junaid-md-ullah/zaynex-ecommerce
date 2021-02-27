@@ -1,3 +1,5 @@
+$commonGray: #dad5d5;
+
 .vl{
     height: 23px;
     background:gray;
@@ -16,10 +18,10 @@
 }
 
 .search_bar{
-    border: 1px solid #dad5d5;
+    border: 1px solid $commonGray;
     border-radius: 3px;
     background: #FAFAFA;
-    color: #dad5d5;
+    color: $commonGray;
     font-weight: 400;
     font-size: smaller;
     width: 100%;
